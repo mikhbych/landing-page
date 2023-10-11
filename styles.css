@@ -30,20 +30,20 @@ body {
     padding-bottom: 150px;
 }
 
-.main-text {
+.hero .main-text {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
     margin-bottom: 8px;
 }
 
-.secondary-text,
+.hero .secondary-text,
 a {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.secondary-text {
+.hero .secondary-text {
     margin-bottom: 16px;
 }
 
@@ -145,3 +145,37 @@ button {
     align-self: flex-end;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 150px;
+    margin: 150px 300px;
+    border-radius: 12px;
+}
+
+.call-to-action .description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action button {
+    border: 2px solid #f9faf8;
+    align-self: center;
+}
+
+.call-to-action .header {
+    font-size: 30px;
+}
+
+.call-to-action .main-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.call-to-action .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}

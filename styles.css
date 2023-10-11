@@ -5,7 +5,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
     display: flex;
     padding-left: 300px;
@@ -178,4 +179,17 @@ button {
 .call-to-action .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.footer {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer span {
+    margin: 0px 16px;
 }

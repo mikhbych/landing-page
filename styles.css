@@ -124,3 +124,23 @@ button {
     min-width: 150px;
     align-self: center;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+.quote .author {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}

@@ -80,3 +80,19 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.info .text {
+    color: grey;
+    font: 18px;
+}
+
+.info .image {
+    border: 2px solid #3882f6;
+    border-radius: 4px;
+}

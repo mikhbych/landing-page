@@ -73,12 +73,16 @@ button {
 
 .container {
     flex: 1;
+    align-self: center;
 }
 
 .placeholder {
     color: white;
     background-color: gray;
-    flex: 1;
+    flex-grow: 0;
+    min-width: 500px;
+    min-height: 250px;
+    align-self: flex-start;
     display: flex;
     align-items: center;
     justify-content: center;
